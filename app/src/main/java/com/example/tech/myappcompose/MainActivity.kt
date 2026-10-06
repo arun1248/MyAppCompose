@@ -29,6 +29,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.tech.myappcompose.lemonade.LemonadeApp
 import com.example.tech.myappcompose.ui.theme.MyAppComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -41,16 +42,20 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-//                    GreetingImage(
-//                        message = stringResource(R.string.happy_birthday_sam),
-//                        from = "From Emma"
-//                    )
-//                    BusinessCard(modifier = Modifier.fillMaxSize())
-                    DiceWithButtonAndImage(
+                    /*GreetingImage(
+                        message = stringResource(R.string.happy_birthday_sam),
+                        from = "From Emma"
+                    )*/
+/*
+                    BusinessCard(modifier = Modifier.fillMaxSize())
+*/
+                    /*DiceWithButtonAndImage(
                         modifier = Modifier
                             .fillMaxSize()
                             .wrapContentSize(Alignment.Center)
-                    )
+                    )*/
+
+                    LemonadeApp(modifier = Modifier.fillMaxSize())
                 }
             }
         }
