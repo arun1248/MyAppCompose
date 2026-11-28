@@ -30,6 +30,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tech.myappcompose.lemonade.LemonadeApp
+import com.example.tech.myappcompose.stateexcalculator.TipTimeLayout
 import com.example.tech.myappcompose.ui.theme.MyAppComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -55,7 +56,9 @@ class MainActivity : ComponentActivity() {
                             .wrapContentSize(Alignment.Center)
                     )*/
 
-                    LemonadeApp(modifier = Modifier.fillMaxSize())
+//                    LemonadeApp(modifier = Modifier.fillMaxSize())
+
+                    TipTimeLayout()
                 }
             }
         }
